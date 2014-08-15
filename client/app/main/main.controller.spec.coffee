@@ -4,6 +4,7 @@ describe 'Controller: MainCtrl', ->
 
   # load the controller's module
   beforeEach module 'dotaApp' 
+  beforeEach module 'socketMock' 
 
   MainCtrl = undefined
   scope = undefined

@@ -4,7 +4,9 @@ angular.module 'dotaApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ui.router'
+  'btford.socket-io',
+  'ui.router',
+  'ui.bootstrap'
 ]
 .config ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) ->
   $urlRouterProvider

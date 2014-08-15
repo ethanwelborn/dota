@@ -11,6 +11,7 @@
 
 var _ = require('lodash');
 var match = require('./match.model');
+var steam_key = process.env.STEAM_KEY;
 
 // Get list of things
 exports.index = function(req, res) {
